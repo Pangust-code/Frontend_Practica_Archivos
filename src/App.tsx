@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Tu IP pública de Google Cloud (Nginx)
-const API_URL = 'http://34.72.23.193/api'; 
+const API_URL = 'http://34.45.5.88/api'; 
 
 function App() {
   const [recursos, setRecursos] = useState<any[]>([]);
